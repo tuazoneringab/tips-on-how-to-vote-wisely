@@ -1,0 +1,223 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.25),rgba(0,0,0,0.25),rgba(0,0,0,0.25)), url(./images/background2.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    min-height: 100px;
+}
+
+ul{
+    list-style-type: none;
+    margin: auto;
+    min-height: auto;
+    margin-right: auto;
+    font-size: 20px;
+}
+
+ul li{
+    display: inline-flex;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 20px 22.5px;
+    border: 2px;
+    transition: 0.5 ease;
+}
+
+ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+ul li.active a{
+    background-color: #fff;
+    color: #000;
+}
+
+.logo img{
+    float: left;
+    margin: 10px;
+    width: 175px;
+    height: auto;
+    color: transparent;
+}
+
+.main{
+    max-width: 1600px;
+    margin: auto;
+}
+
+.logo1 img{
+    float: right;
+    margin: 10px;
+    width: 165px;
+    height: auto;
+    color: transparent;
+}
+
+.main1{
+    max-width: 1600px;
+    margin: auto;
+}
+
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title h1{
+    color: #fff;
+    font-size: 70px;
+}
+
+.button{
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn{
+    border: 1px solid #fff;
+    padding: 5px 20px;
+    color: #fff;
+    transition: 0.5 ease;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.btn:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+.sub-menu{
+    display: none;
+    top: 16%;
+    position: relative;
+}
+
+ul li .sub-menu {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 160px;
+    padding: 10px;
+    z-index: 1;
+}
+
+ul li:hover .sub-menu {
+    display: block;
+}
+
+ul li .sub-menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li .sub-menu ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+    display: block;
+}
+
+ul li .sub-menu ul li a:hover {
+    background-color: #555;
+}
+
+.banner{
+    width: 70%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner h1{
+    align-items: top;
+    color: #fff;
+    font-size: 3rem;
+}
+
+.banner p{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 2.25rem;
+    display: flex;
+}
+
+.banner1{
+    width: 70%;
+    height: 70vh;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner1 h1{
+    margin-top: 20px;
+    align-items: top;
+    color: #fff;
+    font-size: 3rem;
+}
+
+.banner1 li{
+    font-family:Arial, Helvetica, sans-serif;
+    color: #fff;
+    margin: 10px;
+    font-size: 1.75rem;
+}
+
+.banner2{
+    width: 73.5%;
+    height: 73.5vh;
+    display: inline-block;
+    justify-content: bottom;
+    align-items: center;
+}
+
+.banner2 h1{
+    margin-top: 20px;
+    align-items: top;
+    color: #fff;
+    font-size: 3rem;
+}
+
+.banner2 li{
+    font-family:Arial, Helvetica, sans-serif;
+    color: #fff;
+    margin: 10px;
+    font-size: 1.75rem;
+}
+
+.banner3{
+    width: 73.5%;
+    height: 73.5vh;
+    display: inline-block;
+    justify-content: bottom;
+    align-items: center;
+}
+
+.banner3 h1{
+    margin-top: 20px;
+    align-items: top;
+    color: #fff;
+    font-size: 3rem;
+}
+
+.banner3 li{
+    font-family:Arial, Helvetica, sans-serif;
+    color: #fff;
+    margin: 10px;
+    font-size: 1.75rem;
+}
